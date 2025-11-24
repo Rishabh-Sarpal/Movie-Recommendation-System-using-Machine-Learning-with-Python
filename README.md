@@ -14,7 +14,7 @@ Combining genres, cast, crew, keywords, and overview into a single unified featu
 ✨ Text Vectorization
 Transforming movie features into numerical vectors using TF-IDF or CountVectorizer.
 
-🔗 Cosine Similarity Based Ranking
+🔗 Cosine Similarity Ranking
 Computing similarity scores to identify and rank the closest matching movies.
 
 🎥 Recommendation Engine
@@ -29,13 +29,13 @@ movie_recommendation.ipynb — Main notebook with code, processing, similarity m
 
 movies.csv — Dataset containing movie metadata (TMDB or similar)
 
-README.md — Project overview and details
+README.md — Project overview and explanation
 
 requirements.txt — Python dependencies for running the project
 
 🛠 Technologies Used
 
-Python · Pandas · NumPy · Scikit-learn · NLTK (optional) · Jupyter/Colab
+Python • Pandas • NumPy • Scikit-learn • NLTK (optional) • Jupyter/Colab
 
 🎯 Project Goals
 
@@ -63,7 +63,7 @@ Calculate similarity matrix using cosine similarity
 
 Recommend top movies based on similarity score
 
-📌 Example Usage
+🧪 Example Usage
 recommend("Avatar")
 
 
@@ -75,7 +75,7 @@ Output:
 4. Thor: Ragnarok
 5. Star Wars: The Force Awakens
 
-💡 Future Enhancements
+🔮 Future Enhancements
 
 Add a Streamlit or Flask web app
 
@@ -89,5 +89,6 @@ Build a hybrid recommendation model
 
 ❤️ Why This Project Matters
 
-Recommendation systems are used everywhere — Netflix, YouTube, Amazon, Spotify.
-This project demonstrates how simple machine learning techniques can power real-world applications, making it an excellent addition to your portfolio.
+Recommendation systems are everywhere — Netflix, YouTube, Amazon, Spotify.
+This project shows how simple machine learning techniques can power real-world applications,
+making it an excellent addition to your portfolio and valuable for learning ML fundamentals.
